@@ -12,5 +12,8 @@ Use the latest version rather than the one included with the distribution; other
 Example usage:
 
 ```
-dot -Tpng 25.dot -o 25.png
+dot -Tpng filename.dot -o filename.png
 ```
+
+Example output:
+![output](https://raw.githubusercontent.com/cosmoharrigan/diagrams/master/inference-example/png/1.png)
