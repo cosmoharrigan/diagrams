@@ -16,4 +16,5 @@ dot -Tpng filename.dot -o filename.png
 ```
 
 Example output:
+
 ![output](https://raw.githubusercontent.com/cosmoharrigan/diagrams/master/inference-example/png/1.png)
