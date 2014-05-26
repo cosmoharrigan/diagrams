@@ -1,0 +1,4 @@
+digraph {
+	graph [rankdir=LR];
+	"consume" -> "eat"[label="similar"];
+}

@@ -1,0 +1,5 @@
+digraph {
+	graph [rankdir=LR];
+	apple -> food[label=" is a"];
+	nutrient -> food[label=" similar"];
+}

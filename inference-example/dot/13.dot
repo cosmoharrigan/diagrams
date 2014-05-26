@@ -1,0 +1,5 @@
+digraph {
+	graph [rankdir=LR];
+	x2 [label=<X<SUB>2</SUB>>, shape=diamond];
+	x2 -> nutrient[label=" is a"];
+}

@@ -1,0 +1,5 @@
+digraph {
+	graph [rankdir=LR];
+	x1 [label=<X<SUB>1</SUB>>, shape=diamond];
+	x1 -> organism[label=" is a"];
+}

@@ -1,0 +1,4 @@
+digraph {
+	graph [rankdir=LR];
+	girl -> child[label=" is a"];
+}

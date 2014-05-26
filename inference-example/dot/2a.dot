@@ -1,0 +1,7 @@
+digraph {
+	graph [rankdir=LR];
+	girl -> child[label=" is a"];
+	child -> human[label=" is a"];
+	human -> animal[label=" is a"];
+	animal -> organism[label=" is a"];
+}

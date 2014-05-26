@@ -1,0 +1,8 @@
+digraph {
+	graph [rankdir=LR];
+	x1 [label=<X<SUB>1</SUB>>, shape=diamond];
+	x2 [label=<X<SUB>2</SUB>>, shape=diamond];
+	x1 -> organism[label=" is a"];
+	x2 -> nutrient[label=" is a"];
+	x1 -> x2[label=" take in"];
+}
