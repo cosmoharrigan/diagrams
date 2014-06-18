@@ -9,6 +9,10 @@ These are visualizations of the "smokes" PLN/attention allocation example locate
 ## Examples
 
 ### Create duplicate copies of ConceptNodes and PredicateNodes
+*No coloring*
+![conceptnode-predicatenode](png/duplicate-conceptnode-predicatenode-shapes.png)
+
+### Create duplicate copies of ConceptNodes and PredicateNodes
 *Duplicate nodes share a common coloring.*
 ![conceptnode-predicatenode](png/duplicate-conceptnode-predicatenode.png)
 
