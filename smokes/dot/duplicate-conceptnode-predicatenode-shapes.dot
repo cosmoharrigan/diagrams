@@ -1,0 +1,154 @@
+// OpenCog Graph
+digraph {
+	graph [rankdir=LR]
+		25 [label="[ListLink] " shape=component]
+		vertex_79168569011142262038859097616784652393 [label="[ConceptNode] Anna" shape=ellipse]
+		25 [label="[ListLink] " shape=component]
+		vertex_264721085195728906911137057251314819733 [label="[ConceptNode] Bob" shape=ellipse]
+		27 [label="[ListLink] " shape=component]
+		vertex_116536709836527536675846727712590449147 [label="[ConceptNode] Anna" shape=ellipse]
+		27 [label="[ListLink] " shape=component]
+		vertex_109291817281349501686773097403526371212 [label="[ConceptNode] Edward" shape=ellipse]
+		29 [label="[ListLink] " shape=component]
+		vertex_292652249986632271606641795855819236153 [label="[ConceptNode] Anna" shape=ellipse]
+		29 [label="[ListLink] " shape=component]
+		vertex_39959842980090770988247504232513244859 [label="[ConceptNode] Frank" shape=ellipse]
+		31 [label="[ListLink] " shape=component]
+		vertex_177705115219058605175786270041749548489 [label="[ConceptNode] Edward" shape=ellipse]
+		31 [label="[ListLink] " shape=component]
+		vertex_6725169718934478593668775121454501259 [label="[ConceptNode] Frank" shape=ellipse]
+		33 [label="[ListLink] " shape=component]
+		vertex_321909947202405123050065609025488619295 [label="[ConceptNode] Gary" shape=ellipse]
+		33 [label="[ListLink] " shape=component]
+		vertex_137940547931328113113706392797017124966 [label="[ConceptNode] Helen" shape=ellipse]
+		11 [label="[ListLink] " shape=component]
+		10 [label="[VariableNode] $X1" shape=folder]
+		35 [label="[ListLink] " shape=component]
+		vertex_91222442396407096671721483937597598208 [label="[ConceptNode] Anna" shape=ellipse]
+		37 [label="[ListLink] " shape=component]
+		vertex_106152444072647123024555389868399911163 [label="[ConceptNode] Edward" shape=ellipse]
+		40 [label="[ListLink] " shape=component]
+		39 [label="[VariableNode] $hasCancer" shape=folder]
+		17 [label="[ListLink] " shape=component]
+		15 [label="[VariableNode] $X2" shape=folder]
+		17 [label="[ListLink] " shape=component]
+		16 [label="[VariableNode] $Y2" shape=folder]
+		19 [label="[ListLink] " shape=component]
+		15 [label="[VariableNode] $X2" shape=folder]
+		21 [label="[ListLink] " shape=component]
+		16 [label="[VariableNode] $Y2" shape=folder]
+		23 [label="[ImplicationLink] " shape=tripleoctagon]
+		20 [label="[EvaluationLink] " shape=house]
+		23 [label="[ImplicationLink] " shape=tripleoctagon]
+		22 [label="[EvaluationLink] " shape=house]
+		24 [label="[ImplicationLink] " shape=tripleoctagon]
+		18 [label="[EvaluationLink] " shape=house]
+		24 [label="[ImplicationLink] " shape=tripleoctagon]
+		23 [label="[ImplicationLink] " shape=tripleoctagon]
+		14 [label="[ImplicationLink] " shape=tripleoctagon]
+		12 [label="[EvaluationLink] " shape=house]
+		14 [label="[ImplicationLink] " shape=tripleoctagon]
+		13 [label="[EvaluationLink] " shape=house]
+		26 [label="[EvaluationLink] " shape=house]
+		vertex_304649547554385418549430496860363651752 [label="[PredicateNode] friends" shape=octagon]
+		26 [label="[EvaluationLink] " shape=house]
+		25 [label="[ListLink] " shape=component]
+		28 [label="[EvaluationLink] " shape=house]
+		vertex_200257109549388880327632246655816322889 [label="[PredicateNode] friends" shape=octagon]
+		28 [label="[EvaluationLink] " shape=house]
+		27 [label="[ListLink] " shape=component]
+		30 [label="[EvaluationLink] " shape=house]
+		vertex_240358723505484281726010430380030312015 [label="[PredicateNode] friends" shape=octagon]
+		30 [label="[EvaluationLink] " shape=house]
+		29 [label="[ListLink] " shape=component]
+		32 [label="[EvaluationLink] " shape=house]
+		vertex_11406011078866307474121726127019998101 [label="[PredicateNode] friends" shape=octagon]
+		32 [label="[EvaluationLink] " shape=house]
+		31 [label="[ListLink] " shape=component]
+		34 [label="[EvaluationLink] " shape=house]
+		vertex_165944953520049564331229407820364598077 [label="[PredicateNode] friends" shape=octagon]
+		34 [label="[EvaluationLink] " shape=house]
+		33 [label="[ListLink] " shape=component]
+		12 [label="[EvaluationLink] " shape=house]
+		vertex_335487288444813728594201069728466564727 [label="[PredicateNode] smokes" shape=octagon]
+		12 [label="[EvaluationLink] " shape=house]
+		11 [label="[ListLink] " shape=component]
+		36 [label="[EvaluationLink] " shape=house]
+		vertex_69148856145796663068151081818686096357 [label="[PredicateNode] smokes" shape=octagon]
+		36 [label="[EvaluationLink] " shape=house]
+		35 [label="[ListLink] " shape=component]
+		13 [label="[EvaluationLink] " shape=house]
+		vertex_106584711409054374265882908134722885850 [label="[PredicateNode] cancer" shape=octagon]
+		13 [label="[EvaluationLink] " shape=house]
+		11 [label="[ListLink] " shape=component]
+		38 [label="[EvaluationLink] " shape=house]
+		vertex_42617450241558171322703921710807834482 [label="[PredicateNode] smokes" shape=octagon]
+		38 [label="[EvaluationLink] " shape=house]
+		37 [label="[ListLink] " shape=component]
+		41 [label="[EvaluationLink] " shape=house]
+		vertex_307969336228835256137802266562274211654 [label="[PredicateNode] cancer" shape=octagon]
+		41 [label="[EvaluationLink] " shape=house]
+		40 [label="[ListLink] " shape=component]
+		18 [label="[EvaluationLink] " shape=house]
+		vertex_217138026720919986985094948116553508580 [label="[PredicateNode] friends" shape=octagon]
+		18 [label="[EvaluationLink] " shape=house]
+		17 [label="[ListLink] " shape=component]
+		20 [label="[EvaluationLink] " shape=house]
+		vertex_54650958818618649737466229499855525478 [label="[PredicateNode] smokes" shape=octagon]
+		20 [label="[EvaluationLink] " shape=house]
+		19 [label="[ListLink] " shape=component]
+		22 [label="[EvaluationLink] " shape=house]
+		vertex_58251224751947782546219670369758835286 [label="[PredicateNode] smokes" shape=octagon]
+		22 [label="[EvaluationLink] " shape=house]
+		21 [label="[ListLink] " shape=component]
+			25 -> vertex_79168569011142262038859097616784652393
+			25 -> vertex_264721085195728906911137057251314819733
+			27 -> vertex_116536709836527536675846727712590449147
+			27 -> vertex_109291817281349501686773097403526371212
+			29 -> vertex_292652249986632271606641795855819236153
+			29 -> vertex_39959842980090770988247504232513244859
+			31 -> vertex_177705115219058605175786270041749548489
+			31 -> vertex_6725169718934478593668775121454501259
+			33 -> vertex_321909947202405123050065609025488619295
+			33 -> vertex_137940547931328113113706392797017124966
+			11 -> 10
+			35 -> vertex_91222442396407096671721483937597598208
+			37 -> vertex_106152444072647123024555389868399911163
+			40 -> 39
+			17 -> 15
+			17 -> 16
+			19 -> 15
+			21 -> 16
+			23 -> 20
+			23 -> 22
+			24 -> 18
+			24 -> 23
+			14 -> 12
+			14 -> 13
+			26 -> vertex_304649547554385418549430496860363651752
+			26 -> 25
+			28 -> vertex_200257109549388880327632246655816322889
+			28 -> 27
+			30 -> vertex_240358723505484281726010430380030312015
+			30 -> 29
+			32 -> vertex_11406011078866307474121726127019998101
+			32 -> 31
+			34 -> vertex_165944953520049564331229407820364598077
+			34 -> 33
+			12 -> vertex_335487288444813728594201069728466564727
+			12 -> 11
+			36 -> vertex_69148856145796663068151081818686096357
+			36 -> 35
+			13 -> vertex_106584711409054374265882908134722885850
+			13 -> 11
+			38 -> vertex_42617450241558171322703921710807834482
+			38 -> 37
+			41 -> vertex_307969336228835256137802266562274211654
+			41 -> 40
+			18 -> vertex_217138026720919986985094948116553508580
+			18 -> 17
+			20 -> vertex_54650958818618649737466229499855525478
+			20 -> 19
+			22 -> vertex_58251224751947782546219670369758835286
+			22 -> 21
+}
