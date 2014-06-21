@@ -6,5 +6,8 @@ For visualizations of the basic data without the extra data, see the examples in
 
 ## Examples
 
+### Create duplicate copies of ConceptNodes and PredicateNodes
+![conceptnode-predicatenode](png/duplicate-conceptnode-predicatenode-shapes.png)
+
 ### Raw version without any duplicate copies
 ![raw](png/raw.png)
