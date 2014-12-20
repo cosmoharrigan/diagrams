@@ -1,0 +1,41 @@
+% Requires these to be included:
+% \usepackage{tikz}
+% \usetikzlibrary{arrows,positioning,shapes}
+ 
+\begin{tikzpicture}[>=latex']
+    \tikzset{block/.style= {draw, rectangle, align=center,minimum width=2cm,minimum height=1cm},
+    rblock/.style={draw, shape=rectangle,rounded corners=1.5em,align=center,minimum width=2cm,minimum height=1cm},
+    input/.style={
+        draw,
+        minimum width=2cm,
+        align=center,
+        minimum height=1cm
+    },
+	}
+    \node [block] (perceptions) {Perceptions};
+    \node [rblock, below = .8 of perceptions] (perceptual) {Perceptual System};
+    \node [rblock, below = .8 of perceptual] (atomspace) {Atomspace};
+    \node [rblock, below = .8 of atomspace] (action) {Action System};
+    \node [block, below = .8 of action] (actions) {Actions};
+ 
+    \node [rblock, above right = 1.5cm and 1cm of atomspace] (aa) {Attention Allocation};
+    
+    \node [rblock, right = 1.5cm of atomspace] (wm) {Working Memory};
+ 
+    \node [rblock, below right = 1.5cm and 1cm of atomspace] (physio) {Physiological Model};
+    \node [rblock, left = of atomspace] (cognitive) {Cognitive Processes};
+ 
+	\path[draw,->] 
+        (perceptions) edge (perceptual)
+        (perceptual) edge (atomspace)
+        (atomspace) edge (action)
+        (action) edge (actions)
+        ;
+	\path[draw,<->]
+        (aa) edge (atomspace)
+        (wm) edge (atomspace)
+        (atomspace) edge (cognitive)
+        (atomspace) edge (physio)
+        ;
+\end{tikzpicture}
+
